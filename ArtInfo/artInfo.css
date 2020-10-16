@@ -1,0 +1,54 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;   
+    font-family: 'Montserrat', sans-serif ;
+    
+}
+
+body 
+{
+    width: 100%;
+    background-color: honeydew;
+    background-position: fixed;
+    background-image: no-repeat;
+    background-size: cover;   
+}
+
+
+#Description h1
+{
+    font-size: 50px;
+    color: black;
+    background-color: yellow;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+p
+{
+    float:center;
+    border-bottom: 2px solid yellowgreen;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+li{
+    float:center;
+    border-bottom: 2px solid yellowgreen;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+}
+  
+
+  

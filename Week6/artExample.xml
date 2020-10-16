@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="art-full.xsl"?>
+<museum>
+    <museumName>The Virtual Art Museum</museumName>
+	<owner>Miraj Brahmbhatt</owner>
+	<owner>Nathan Bullock</owner>
+	<owner>Juan Arroyo</owner>
+	<owner>Joshua Murphy</owner>
+	<owner>Marius Ebert</owner>
+	<website>www.TBD.com</website>
+    <exhibit>
+		<exhibitName>Renaissance Beauty</exhibitName>
+		<startDate>2020-07-01</startDate>
+		<endDate>2020-12-31</endDate>
+		<artwork>
+			<title>David</title>
+			<medium>Sculpture</medium>
+			<creationDate>1504</creationDate>
+			<epoch>Renaissance</epoch>
+			<artist>
+				<name>Michelangelo Buonarroti</name>
+				<born>1475-03-06</born>
+				<death>1564-02-18</death>
+			</artist>
+			<description>David is a renaissance masterpiece. The sculpture was created in marble between 1501 and 1504 by the Italian artist Michelangelo and is 5,17 meters (17.0ft) tall. 
+			The Biblical figure David was a favoured subject in the art of Florence</description>
+		</artwork>
+        <artwork>
+			<title>Arnolfini Portrait</title>
+			<medium>Oil on oak</medium>
+			<creationDate>1434</creationDate>
+			<epoch>Renaissance</epoch>
+			<artist>
+				<name>Jan van Eyck</name>
+				<born>1390</born>
+				<death>1564-02-18</death>
+			</artist>
+			<description>This must be one of the most famous and intriguing paintings in the world.
+             A richly dressed man and woman stand in a private room. They are probably Giovanni di Nicolao di Arnolfini, an Italian merchant working in Bruges, and his wife.</description>
+        </artwork>
+    </exhibit>
+</museum>
+        
