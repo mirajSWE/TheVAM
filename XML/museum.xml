@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="museum.xsl"?>
 <museum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="museum_schema.xsd">
 	<name>The Virtual Art Museum</name>
@@ -17,13 +18,85 @@
 			<type>Sculpture</type>
 			<creationDate>1504</creationDate>
 			<epoch>Renaissance</epoch>
-			<creator>
+			<creator creatorID="1">
 				<name>Michelangelo Buonarroti</name>
 				<birthday>1475-03-06</birthday>
 				<deathday>1564-02-18</deathday>
 			</creator>
 			<description>David is a renaissance masterpiece. The sculpture was created in marble between 1501 and 1504 by the Italian artist Michelangelo and is 5,17 meters (17.0ft) tall. 
 			The Biblical figure David was a favoured subject in the art of Florence</description>
+		</piece>
+		<piece pieceID="2">
+			<name>La nascita di Venere</name>
+			<type>painting</type>
+			<creationDate>1486</creationDate>
+			<epoch>Renaissance</epoch>
+			<creator creatorID="2">
+				<name>Sandro Botticelli</name>
+				<birthday>1445-03-01</birthday>
+				<deathday>1510-05-17</deathday>
+			</creator>
+			<description>This icon of Italian rennaissance depicts subjects of classical methology. It is known that just like Botticelli's other famous piece ("Primavera"), 
+			this painting was comissioned by the Medici family, maybe even the same family member. </description>
+		</piece>
+		<piece pieceID="3">
+			<name>The Last Supper</name>
+			<type>wall painting</type>
+			<creationDate>1490s</creationDate>
+			<epoch>Renaissance</epoch>
+			<creator creatorID="3">
+				<name>Leonardo da Vinci</name>
+				<birthday>1452-04-14</birthday>
+				<deathday>1519-05-02</deathday>
+			</creator>
+			<description>The Last Supper was painted on a wall sealed with a double layer of gesso (a white paint mixture), pitch, and mastic. Nn undercoat of white lead 
+			was added to enhance the brightness of the oil and tempera that was applied on top. </description>
+		</piece>
+	</exhibit>
+	<exhibit exhibitID="2">
+		<name>Impressive Impressionism</name>
+		<startDate>2020-07-01</startDate>
+		<endDate>2021-06-31</endDate>
+		<piece pieceID="4">
+			<name>Impression, Soleil levant (Sunrise)</name>
+			<type>oil painting</type>
+			<creationDate>1872</creationDate>
+			<epoch>Impressionism</epoch>
+			<creator creatorID="4">
+				<name>Claude Monet</name>
+				<birthday>1840-11-14</birthday>
+				<deathday>1926-12-05</deathday>
+			</creator>
+			<description>This showcase picture of impressionistic art shows the port of Le Havre, Monet's hometown. It is currently shown in the Musée Marmottan Monet in Paris.
+			</description>
+		</piece>
+		<piece pieceID="5">
+			<name>Rue de Paris, temps de pluie (Paris Street; Rainy Day)</name>
+			<type>oil painting</type>
+			<creationDate>1877</creationDate>
+			<epoch>Impressionism</epoch>
+			<creator creatorID="5">
+				<name>Gustave Caillebotte</name>
+				<birthday>1848-08-19</birthday>
+				<deathday>1894-02-21</deathday>
+			</creator>
+			<description>The painting is currently displayed at Art Institute of Chicago and shows the parisian streets Rue de Turin and Rue de Moscou on a cloudy, rainy day.
+			While the scene might seem random at first, Caillebotte planned the painting with multiple sketches. The lantern divides the picture in two halves which each have
+			one individual vanishing point. While the painting technique is not typical impressionistic one, the everyday motif and the playful perspective is.</description>
+		</piece>
+		<piece pieceID="6">
+			<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
+			<type>oil painting</type>
+			<creationDate>1876</creationDate>
+			<epoch>Impressionism</epoch>
+			<creator creatorID="6">
+				<name>Pierre-Auguste Renoir</name>
+				<birthday>1841-02-25</birthday>
+				<deathday>1919-12-03</deathday>
+			</creator>
+			<description>This painting is one of Impresionism's most celebrated masterpieces that shows a snapshot of real life with a richness of form, a fluidity of brush
+			strokes, and a flickering, sun-dappled light. There exists a smaller version of the same picture that is now believed to be in a private collection in Switzerland.
+			The big painting is currently housed at the Musée d'Orsay in Paris.</description>
 		</piece>
 	</exhibit>
 </museum>
