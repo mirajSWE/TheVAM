@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
+<piece pieceID="4" imageLink="../../Images/Art/Impression,_solel_levant.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>Impression, Soleil levant (Sunrise)</name>
+	<type>oil painting</type>
+	<creationDate>1872</creationDate>
+	<epoch>Impressionism</epoch>
+	<creator creatorID="4">
+		<name>Claude Monet</name>
+		<birthday>1840-11-14</birthday>
+		<deathday>1926-12-05</deathday>
+	</creator>
+	<description>This showcase picture of impressionistic art shows the port of Le Havre, Monet's hometown. It is currently shown in the Musée Marmottan Monet in Paris.
+	</description>
+</piece>

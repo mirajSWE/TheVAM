@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet 	version="1.0" 
 					xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/museum">
+<xsl:template match="/exhibit">
 	<html>
 		<head>
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>TheVAM</title>
-			<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+			<link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
 			<link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet"/>
    
    
@@ -16,43 +16,41 @@
 			<div id="home">
 				<nav id="topElements">
 				
-					<a href="../Root/map.html">| MAP ||</a> 
-					<a href="../Root/about.html"> | ABOUT |</a> 
-					<a href="../Root/contact.html">| CONTACT |</a> 
-					<a href="../Root/collection.html">| COLLECTION | </a>
-					<a href="../Root/index.html">|| HOME | </a>
-					<a href="../Root/index.html"> | virtual. art. museum | </a> 
+					<a href="../../Root/map.html">| MAP ||</a> 
+					<a href="../../Root/about.html"> | ABOUT |</a> 
+					<a href="../../Root/contact.html">| CONTACT |</a> 
+					<a href="../../Root/collection.html">| COLLECTION | </a>
+					<a href="../../Root/index.html">|| HOME | </a>
+					<a href="../../Root/index.html"> | virtual. art. museum | </a> 
 					
 				</nav>
 				
 				<header id="collectionDescription">
 				
-					<h1>  The Exhibits </h1>
-					<p> | Browse all exhibits the museum currently offers. Every exhibit will cover a different epoche or art style. Dive into one of the exhibts to gain stunning insights on world-famous 
-					artists and one-of-a-kind artwork!</p>
+					<h1>  <xsl:value-of select="name"/> </h1>
+					<p> Renessaince information here</p>
 					
 				</header>
 				
 				<section>
 					
-					<xsl:for-each select="exhibit">
+					<xsl:for-each select="piece">
 						<div id="pictureCard">
 							<xsl:attribute name="onclick">
 								location.href='<xsl:value-of select="@href"/>';
 							</xsl:attribute>
 							
-							
 							<div class="cardText" id="cardHeader">
 							
-								<p><b><xsl:value-of select="name"/></b></p>
+								<h5><xsl:value-of select="name"/></h5>
 								
 							</div>
 							
-							<div id="cardPicture">
+							<div>
 							
-								<img style="width:100%">
+								<img id="cardPicture">
 									<xsl:attribute name="src">
-										<xsl:value-of select="exampleArt"/>
+										<xsl:value-of select="@imageLink"/>
 									</xsl:attribute>
 								</img>
 								
@@ -60,8 +58,8 @@
 							
 							<div class="cardText">
 							
-								<p>Starts: <xsl:value-of select="startDate"/></p>
-								<p>Ends: <xsl:value-of select="endDate"/></p>
+								<p><b>Name: </b><xsl:value-of select="name"/></p>
+								<p><b>Type: </b><xsl:value-of select="type"/></p>
 							
 							</div>
 							

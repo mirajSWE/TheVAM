@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
+<piece pieceID="1" imageLink="../../Images/Art/David.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>David</name>
+	<type>Sculpture</type>
+	<creationDate>1504</creationDate>
+	<epoch>Renaissance</epoch>
+	<creator creatorID="1">
+		<name>Michelangelo Buonarroti</name>
+		<birthday>1475-03-06</birthday>
+		<deathday>1564-02-18</deathday>
+	</creator>
+	<description>David is a renaissance masterpiece. The sculpture was created in marble between 1501 and 1504 by the Italian artist Michelangelo and is 5,17 meters (17.0ft) tall. 
+	The Biblical figure David was a favoured subject in the art of Florence</description>
+</piece>

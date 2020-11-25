@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="exhibit2.xsl"?>
+<exhibit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ID>2</ID>
+	<name>Impressive Impressionism</name>
+	<startDate>2020-07-01</startDate>
+	<endDate>2021-06-31</endDate>
+	<piece pieceID="4" imageLink="../../Images/Art/Impression,_solel_levant.jpg">
+		<name>Impression, Soleil levant (Sunrise)</name>
+		<type>oil painting</type>
+		<creationDate>1872</creationDate>
+		<epoch>Impressionism</epoch>
+		<creator creatorID="4">
+			<name>Claude Monet</name>
+			<birthday>1840-11-14</birthday>
+			<deathday>1926-12-05</deathday>
+		</creator>
+		<description>This showcase picture of impressionistic art shows the port of Le Havre, Monet's hometown. It is currently shown in the Musée Marmottan Monet in Paris.
+		</description>
+	</piece>
+	<piece pieceID="5" imageLink="../../Images/Art/Jour_de_pluie_à_Paris.jpg">
+		<name>Rue de Paris, temps de pluie (Paris Street; Rainy Day)</name>
+		<type>oil painting</type>
+		<creationDate>1877</creationDate>
+		<epoch>Impressionism</epoch>
+		<creator creatorID="5">
+			<name>Gustave Caillebotte</name>
+			<birthday>1848-08-19</birthday>
+			<deathday>1894-02-21</deathday>
+		</creator>
+		<description>The painting is currently displayed at the Art Institute of Chicago and shows the parisian streets Rue de Turin and Rue de Moscou on a cloudy, rainy day.
+		While the scene might seem random at first, Caillebotte planned the painting with multiple sketches. The lantern divides the picture in two halves which each have
+		one individual vanishing point. While the painting technique is not typical impressionistic one, the everyday motif and the playful perspective is.</description>
+	</piece>
+	<piece pieceID="6" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg">
+		<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
+		<type>oil painting</type>
+		<creationDate>1876</creationDate>
+		<epoch>Impressionism</epoch>
+		<creator creatorID="6">
+			<name>Pierre-Auguste Renoir</name>
+			<birthday>1841-02-25</birthday>
+			<deathday>1919-12-03</deathday>
+		</creator>
+		<description>This painting is one of Impresionism's most celebrated masterpieces that shows a snapshot of real life with a richness of form, a fluidity of brush
+		strokes, and a flickering, sun-dappled light. There exists a smaller version of the same picture that is now believed to be in a private collection in Switzerland.
+		The big painting is currently housed at the Musée d'Orsay in Paris.</description>
+	</piece>
+</exhibit>

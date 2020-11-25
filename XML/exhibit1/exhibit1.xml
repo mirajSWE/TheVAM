@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="exhibit1.xsl"?>
+<exhibit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ID>1</ID>
+	<name>Renaissance Beauty</name>
+	<startDate>2020-07-01</startDate>
+	<endDate>2020-12-31</endDate>
+	<piece pieceID="1" href="piece1.xml" imageLink="../../Images/Art/David.jpg">
+		<name>David</name>
+		<type>Sculpture</type>
+		<creationDate>1504</creationDate>
+		<epoch>Renaissance</epoch>
+		<creator creatorID="1">
+			<name>Michelangelo Buonarroti</name>
+			<birthday>1475-03-06</birthday>
+			<deathday>1564-02-18</deathday>
+		</creator>
+		<description>David is a renaissance masterpiece. The sculpture was created in marble between 1501 and 1504 by the Italian artist Michelangelo and is 5,17 meters (17.0ft) tall. 
+		The Biblical figure David was a favoured subject in the art of Florence</description>
+	</piece>
+	<piece pieceID="2" href="piece2.xml" imageLink="../../Images/Art/La_nascita_di_Venere.jpg">
+		<name>La nascita di Venere</name>
+		<type>Oil Painting</type>
+		<creationDate>1486</creationDate>
+		<epoch>Renaissance</epoch>
+		<creator creatorID="2">
+			<name>Sandro Botticelli</name>
+			<birthday>1445-03-01</birthday>
+			<deathday>1510-05-17</deathday>
+		</creator>
+		<description>This icon of Italian rennaissance depicts subjects of classical methology. It is known that just like Botticelli's other famous piece ("Primavera"), 
+		this painting was comissioned by the Medici family, maybe even the same family member. </description>
+	</piece>
+	<piece pieceID="3" href="piece3.xml" imageLink="../../Images/Art/The_last_supper.jpg">
+		<name>The Last Supper</name>
+		<type>Wall Painting</type>
+		<creationDate>1490s</creationDate>
+		<epoch>Renaissance</epoch>
+		<creator creatorID="3">
+			<name>Leonardo da Vinci</name>
+			<birthday>1452-04-14</birthday>
+			<deathday>1519-05-02</deathday>
+		</creator>
+		<description>The Last Supper was painted on a wall sealed with a double layer of gesso (a white paint mixture), pitch, and mastic. Nn undercoat of white lead 
+		was added to enhance the brightness of the oil and tempera that was applied on top. </description>
+	</piece>
+</exhibit>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="piece2.xsl"?>
+<piece pieceID="2" imageLink="../../Images/Art/La_nascita_di_Venere.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>La nascita di Venere</name>
+	<type>painting</type>
+	<creationDate>1486</creationDate>
+	<epoch>Renaissance</epoch>
+	<creator creatorID="2">
+		<name>Sandro Botticelli</name>
+		<birthday>1445-03-01</birthday>
+		<deathday>1510-05-17</deathday>
+	</creator>
+	<description>This icon of Italian rennaissance depicts subjects of classical methology. It is known that just like Botticelli's other famous piece ("Primavera"), 
+	this painting was comissioned by the Medici family, maybe even the same family member. </description>
+</piece>

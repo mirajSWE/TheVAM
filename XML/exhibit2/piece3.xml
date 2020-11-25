@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="piece3.xsl"?>
+<piece pieceID="6" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
+	<type>oil painting</type>
+	<creationDate>1876</creationDate>
+	<epoch>Impressionism</epoch>
+	<creator creatorID="6">
+		<name>Pierre-Auguste Renoir</name>
+		<birthday>1841-02-25</birthday>
+		<deathday>1919-12-03</deathday>
+	</creator>
+	<description>This painting is one of Impresionism's most celebrated masterpieces that shows a snapshot of real life with a richness of form, a fluidity of brush
+	strokes, and a flickering, sun-dappled light. There exists a smaller version of the same picture that is now believed to be in a private collection in Switzerland.
+	The big painting is currently housed at the Musée d'Orsay in Paris.</description>
+</piece>
