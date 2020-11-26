@@ -25,7 +25,7 @@
 					
 				</nav>
 				
-				<header id="collectionDescription">
+				<header class="collectionDescription">
 				
 					<h1>  <xsl:value-of select="name"/> </h1>
 					<p> Renessaince information here</p>
@@ -35,7 +35,7 @@
 				<section>
 					
 					<xsl:for-each select="piece">
-						<div id="pictureCard">
+						<div class="pictureCard">
 							<xsl:attribute name="onclick">
 								location.href='<xsl:value-of select="@href"/>';
 							</xsl:attribute>
@@ -47,7 +47,7 @@
 								
 							</div>
 							
-							<div>
+							<div class="pictureContainer">
 							
 								<img id="cardPicture">
 									<xsl:attribute name="src">

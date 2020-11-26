@@ -28,7 +28,7 @@
 				<header id="collectionDescription">
 				
 					<h1>  <xsl:value-of select="name"/> </h1>
-					<p> Renessaince information here</p>
+					<p> Renaissaince information here</p>
 					
 				</header>
 				

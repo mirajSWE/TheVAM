@@ -50,7 +50,7 @@
 							
 							<div class="pictureContainer">
 							
-								<img width="100%" id="cardPicture">
+								<img id="cardPicture">
 									<xsl:attribute name="src">
 										<xsl:value-of select="exampleArt"/>
 									</xsl:attribute>
