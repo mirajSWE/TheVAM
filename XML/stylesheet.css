@@ -278,8 +278,22 @@ footer p
   {
     background-color: yellow;
   }
+  
+  
+  
+  
+  
+  
+  
+  section.gridView
+  {	
+	 margin: 100px;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+  }	
 
-  #collectionDescription h1
+  header.collectionDescription h1
   {
       font-size: 50px;
       color: white;
@@ -288,8 +302,19 @@ footer p
       text-align: center;
       border: 2px solid black;
   }
+  
+  header.collectionDescription p
+  {
+	  font-size: 25px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      color: grey;
+      margin-top: 20px;
+      padding: 25px;
+      text-align: center;
+  }
 
-  #pictureCard
+  .pictureCard
   {
 	  background: white;
 	  width: 450px;
@@ -298,17 +323,28 @@ footer p
 	  text-align: center;
   }
   
-  #pictureCard:hover 
+  .pictureCard:hover 
   {
 	  box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 yellow;
+  }
+  
+   .pictureContainer 
+  {
+	  height: 20em;
+	  position: relative;
   }
   
   #cardPicture
   {
 	  max-width: 100%;
 	  max-height: 20em;
-	  position: center;
-  }
+	  margin: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  margin-right: -50%;
+	  transform: translate(-50%, -50%);
+}
   
   #cardHeader
   {

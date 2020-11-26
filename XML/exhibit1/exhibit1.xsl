@@ -32,10 +32,10 @@
 					
 				</header>
 				
-				<section>
+				<section class="gridView">
 					
 					<xsl:for-each select="piece">
-						<div id="pictureCard">
+						<div class="pictureCard">
 							<xsl:attribute name="onclick">
 								location.href='<xsl:value-of select="@href"/>';
 							</xsl:attribute>
@@ -46,7 +46,7 @@
 								
 							</div>
 							
-							<div>
+							<div class="pictureContainer">
 							
 								<img id="cardPicture">
 									<xsl:attribute name="src">

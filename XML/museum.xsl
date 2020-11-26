@@ -25,7 +25,7 @@
 					
 				</nav>
 				
-				<header id="collectionDescription">
+				<header class="collectionDescription">
 				
 					<h1>  The Exhibits </h1>
 					<p> | Browse all exhibits the museum currently offers. Every exhibit will cover a different epoche or art style. Dive into one of the exhibts to gain stunning insights on world-famous 
@@ -33,10 +33,10 @@
 					
 				</header>
 				
-				<section>
+				<section class="gridView">
 					
 					<xsl:for-each select="exhibit">
-						<div id="pictureCard">
+						<div class="pictureCard">
 							<xsl:attribute name="onclick">
 								location.href='<xsl:value-of select="@href"/>';
 							</xsl:attribute>
@@ -48,9 +48,9 @@
 								
 							</div>
 							
-							<div id="cardPicture">
+							<div class="pictureContainer">
 							
-								<img style="width:100%">
+								<img width="100%" id="cardPicture">
 									<xsl:attribute name="src">
 										<xsl:value-of select="exampleArt"/>
 									</xsl:attribute>
