@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="piece3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
 <piece pieceID="3" imageLink="../../Images/Art/The_last_supper.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>The Last Supper</name>
 	<type>wall painting</type>

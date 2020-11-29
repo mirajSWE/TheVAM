@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="piece3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
 <piece pieceID="6" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
 	<type>oil painting</type>
