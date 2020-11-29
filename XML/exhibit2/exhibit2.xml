@@ -5,7 +5,7 @@
 	<name>Impressive Impressionism</name>
 	<startDate>2020-07-01</startDate>
 	<endDate>2021-06-31</endDate>
-	<piece pieceID="4" imageLink="../../Images/Art/Impression,_soleil_levant.jpg">
+	<piece pieceID="4" href="piece1.xml" imageLink="../../Images/Art/Impression_soleil_levant.jpg">
 		<name>Impression, Soleil levant (Sunrise)</name>
 		<type>oil painting</type>
 		<creationDate>1872</creationDate>
@@ -18,7 +18,7 @@
 		<description>This showcase picture of impressionistic art shows the port of Le Havre, Monet's hometown. It is currently shown in the Musée Marmottan Monet in Paris.
 		</description>
 	</piece>
-	<piece pieceID="5" imageLink="../../Images/Art/Jour_de_pluie_à_Paris.jpg">
+	<piece pieceID="5" href="piece2.xml" imageLink="../../Images/Art/Jour_de_pluie_à_Paris.jpg">
 		<name>Rue de Paris, temps de pluie (Paris Street; Rainy Day)</name>
 		<type>oil painting</type>
 		<creationDate>1877</creationDate>
@@ -32,7 +32,7 @@
 		While the scene might seem random at first, Caillebotte planned the painting with multiple sketches. The lantern divides the picture in two halves which each have
 		one individual vanishing point. While the painting technique is not typical impressionistic one, the everyday motif and the playful perspective is.</description>
 	</piece>
-	<piece pieceID="6" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg">
+	<piece pieceID="6" href="piece3.xml" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg">
 		<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
 		<type>oil painting</type>
 		<creationDate>1876</creationDate>

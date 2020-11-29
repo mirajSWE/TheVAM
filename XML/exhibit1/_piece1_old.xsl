@@ -34,9 +34,18 @@
 				
 				<section class="gridView">
 					
-					<!--<xsl:for-each select="piece">-->
+					
 						<div class="pictureCard">
-							<xsl:attribute name="onclick">
+							<h5><xsl:value-of select="name"/></h5>
+							<img id="cardPicture">
+									<xsl:attribute name="src">
+										<xsl:value-of select="@imageLink"/>
+									</xsl:attribute>
+							</img>
+							<p><b>Name: </b><xsl:value-of select="name"/></p>
+							<p><b>Artist: </b><xsl:value-of select="creator/name"/></p>
+							
+							<!---<xsl:attribute name="onclick">
 								location.href='<xsl:value-of select="@href"/>';
 							</xsl:attribute>
 							
@@ -61,10 +70,10 @@
 								<p><b>Name: </b><xsl:value-of select="name"/></p>
 								<p><b>Artist: </b><xsl:value-of select="creator/name"/></p>
 							
-							</div>
+							</div>-->
 							
 						</div>
-					<!--</xsl:for-each> -->
+					
 				
 				</section>
 				

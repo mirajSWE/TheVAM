@@ -28,7 +28,9 @@
 				<header class="collectionDescription">
 				
 					<h1>  <xsl:value-of select="name"/> </h1>
-					<p> Renessaince information here</p>
+					<p> Impressionism is a movement of art that emerged in 1870s France. Rejecting the rigid rules of the beaux-arts (“fine arts”),
+					Impressionist artists showcased a new way to observe and depict the world in their work, foregoing realistic portrayals for fleeting
+					impressions of their surroundings—which, often, were found outside.</p>
 					
 				</header>
 				

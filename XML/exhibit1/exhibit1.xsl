@@ -28,7 +28,8 @@
 				<header id="collectionDescription">
 				
 					<h1>  <xsl:value-of select="name"/> </h1>
-					<p> Renaissaince information here</p>
+					<p> The Renaissance was a period in European history marking the transition from the Middle Ages to modernity and covering the 15th and 16th centuries.
+	It occurred after the Crisis of the Late Middle Ages and was associated with great social change </p>
 					
 				</header>
 				
