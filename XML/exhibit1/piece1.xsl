@@ -58,8 +58,11 @@
 							
 							<div class="cardText">
 							
-								<p><b>Name: </b><xsl:value-of select="name"/></p>
+								<!--<p><b>Name: </b><xsl:value-of select="name"/></p>-->
 								<p><b>Artist: </b><xsl:value-of select="creator/name"/></p>
+								<p><b>Type: </b><xsl:value-of select="type"/></p>
+								<p><b>Epoch: </b><xsl:value-of select="epoch"/></p>
+								<p><b>Date: </b><xsl:value-of select="creationDate"/></p>
 							
 							</div>
 							
