@@ -355,4 +355,33 @@ footer p
   {
 	  padding:25px;
   }
+  
+  section.pictureContainer
+  {
+	  margin: auto;
+  }
 
+ .pictureSide
+ {
+	 border-right: 3px solid yellow;
+	 width: 80em;
+	 height: 100%;
+ }
+ 
+ .textSide
+ {
+	 margin-left: 84em;
+	 margin-top: -15em;	
+	 transform: scale(1.2);
+	 font-family: 'Montserrat', sans-serif;
+	 line-height: 2;
+ }
+ 
+ #pictureView
+ {
+	 position: absolute;
+	 left: 50%;
+	 margin-right: -50%;
+	 transform: translate(-70%, 0);
+	 max-width: 79em;
+ }

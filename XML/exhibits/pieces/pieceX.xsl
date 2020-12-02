@@ -32,42 +32,23 @@
 					
 				</header>
 				
-				<section class="gridView">
+				<section class="pictureContainer">
 					
-					<!--<xsl:for-each select="piece">-->
-						<div class="pictureCard">
-							<xsl:attribute name="onclick">
-								location.href='<xsl:value-of select="@href"/>';
+					<div class="pictureSide">
+						<img id="pictureView">
+							<xsl:attribute name="src">
+								<xsl:value-of select="@imageLink"/>
 							</xsl:attribute>
-							
-							<div class="cardText" id="cardHeader">
-							
-								<h5><xsl:value-of select="name"/></h5>
-								
-							</div>
-							
-							<div class="pictureContainer">
-							
-								<img id="cardPicture">
-									<xsl:attribute name="src">
-										<xsl:value-of select="@imageLink"/>
-									</xsl:attribute>
-								</img>
-								
-							</div>
-							
-							<div class="cardText">
-							
-								<!--<p><b>Name: </b><xsl:value-of select="name"/></p>-->
-								<p><b>Artist: </b><xsl:value-of select="creator/name"/></p>
-								<p><b>Type: </b><xsl:value-of select="type"/></p>
-								<p><b>Epoch: </b><xsl:value-of select="epoch"/></p>
-								<p><b>Date: </b><xsl:value-of select="creationDate"/></p>
-							
-							</div>
-							
-						</div>
-					<!--</xsl:for-each> -->
+						</img>
+					</div>
+					
+					<div class="textSide">
+						<p><b>Type: </b><xsl:value-of select="type"/></p>
+						<p><b>Epoch: </b><xsl:value-of select="epoch"/></p>
+						<p><b>Created: </b><xsl:value-of select="creationDate"/></p>
+						<p><b>Artist: </b><xsl:value-of select="creator/name"/></p>
+						<pre><p style="line-height:0.3;">	    (<xsl:value-of select="creator/birthday"/> - <xsl:value-of select="creator/deathday"/>)</p></pre>
+					</div>
 				
 				</section>
 				
