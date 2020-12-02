@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
-<piece pieceID="1" imageLink="../../Images/Art/David.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
+<piece pieceID="1" imageLink="../../../Images/Art/David.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>David</name>
 	<type>Sculpture</type>
 	<creationDate>1504</creationDate>

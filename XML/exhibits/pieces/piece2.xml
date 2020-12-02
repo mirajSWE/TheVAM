@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="piece1.xsl"?>
-<piece pieceID="2" imageLink="../../Images/Art/La_nascita_di_Venere.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
+<piece pieceID="2" imageLink="../../../Images/Art/La_nascita_di_Venere.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>La nascita di Venere</name>
 	<type>painting</type>
 	<creationDate>1486</creationDate>

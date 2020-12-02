@@ -19,7 +19,7 @@
 					<a href="../../Root/map.html">| MAP ||</a> 
 					<a href="../../Root/about.html"> | ABOUT |</a> 
 					<a href="../../Root/contact.html">| CONTACT |</a> 
-					<a href="../../Root/collection.html">| COLLECTION | </a>
+					<a href="../../XML/museum.xml">| COLLECTION | </a>
 					<a href="../../Root/index.html">|| HOME | </a>
 					<a href="../../Root/index.html"> | virtual. art. museum | </a> 
 					
@@ -27,9 +27,8 @@
 				
 				<header id="collectionDescription">
 				
-					<h1>  <xsl:value-of select="name"/> </h1>
-					<p> The Renaissance was a period in European history marking the transition from the Middle Ages to modernity and covering the 15th and 16th centuries.
-	It occurred after the Crisis of the Late Middle Ages and was associated with great social change </p>
+					<h1><xsl:value-of select="name"/></h1>
+					<p><xsl:value-of select="description"/></p>
 					
 				</header>
 				

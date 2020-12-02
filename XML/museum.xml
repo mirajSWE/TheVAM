@@ -9,13 +9,13 @@
 	<owner>Joshua Murphy</owner>
 	<owner>Marius Ebert</owner>
 	<address>www.TBD.com</address>
-	<exhibit exhibitID="1" href="exhibit1/exhibit1.xml">
+	<exhibit exhibitID="1" href="exhibits/exhibit1.xml">
 		<name>Renaissance Beauty</name>
 		<exampleArt>../Images/Art/La_nascita_di_Venere.jpg</exampleArt>
 		<startDate>2020-07-01</startDate>
 		<endDate>2020-12-31</endDate>
 	</exhibit>
-	<exhibit exhibitID="2" href="exhibit2/exhibit2.xml">
+	<exhibit exhibitID="2" href="exhibits/exhibit2.xml">
 		<name>Impressive Impressionism</name>
 		<exampleArt>../Images/Art/Jour_de_pluie_à_Paris.jpg</exampleArt>
 		<startDate>2020-07-01</startDate>
