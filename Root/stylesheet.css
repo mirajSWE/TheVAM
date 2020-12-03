@@ -53,6 +53,7 @@ body
     margin-top: 35%;
     padding: 30px;
     font-size: 70px;
+	cursor: pointer;
 }
 
 #home
