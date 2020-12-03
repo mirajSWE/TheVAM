@@ -10,7 +10,7 @@
 					impressions of their surroundings—which, often, were found outside.</description>
 	<piece pieceID="4" href="pieces/piece4.xml" imageLink="../../Images/Art/Impression_soleil_levant.jpg">
 		<name>Impression, Soleil levant (Sunrise)</name>
-		<type>oil painting</type>
+		<type>Oil Painting</type>
 		<creationDate>1872</creationDate>
 		<epoch>Impressionism</epoch>
 		<creator creatorID="4">
@@ -22,8 +22,8 @@
 		</description>
 	</piece>
 	<piece pieceID="5" href="pieces/piece5.xml" imageLink="../../Images/Art/Jour_de_pluie_à_Paris.jpg">
-		<name>Rue de Paris, temps de pluie (Paris Street; Rainy Day)</name>
-		<type>oil painting</type>
+		<name>Rue de Paris, Temps de Pluie (Paris Street; Rainy Day)</name>
+		<type>Oil Painting</type>
 		<creationDate>1877</creationDate>
 		<epoch>Impressionism</epoch>
 		<creator creatorID="5">
@@ -36,8 +36,8 @@
 		one individual vanishing point. While the painting technique is not typical impressionistic one, the everyday motif and the playful perspective is.</description>
 	</piece>
 	<piece pieceID="6" href="pieces/piece6.xml" imageLink="../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg">
-		<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
-		<type>oil painting</type>
+		<name>Bal du Moulin de la Galette (Dance at Le moulin de la Galette)</name>
+		<type>Oil Painting</type>
 		<creationDate>1876</creationDate>
 		<epoch>Impressionism</epoch>
 		<creator creatorID="6">

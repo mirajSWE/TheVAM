@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
 <piece pieceID="5" imageLink="../../../Images/Art/Jour_de_pluie_à_Paris.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>Rue de Paris, temps de pluie (Paris Street; Rainy Day)</name>
-	<type>oil painting</type>
+	<type>Oil Painting</type>
 	<creationDate>1877</creationDate>
 	<epoch>Impressionism</epoch>
 	<creator creatorID="5">

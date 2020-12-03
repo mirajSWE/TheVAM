@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
 <piece pieceID="4" imageLink="../../../Images/Art/Impression_soleil_levant.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>Impression, Soleil levant (Sunrise)</name>
-	<type>oil painting</type>
+	<type>Oil Painting</type>
 	<creationDate>1872</creationDate>
 	<epoch>Impressionism</epoch>
 	<creator creatorID="4">

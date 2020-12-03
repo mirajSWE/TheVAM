@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
 <piece pieceID="6" imageLink="../../../Images/Art/Dance_at_Le_Moulin_de_la_Galette.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>Bal du moulin de la Galette (Dance at Le moulin de la Galette)</name>
-	<type>oil painting</type>
+	<type>Oil Painting</type>
 	<creationDate>1876</creationDate>
 	<epoch>Impressionism</epoch>
 	<creator creatorID="6">

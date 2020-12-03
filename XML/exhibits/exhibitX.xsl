@@ -16,12 +16,11 @@
 			<div id="home">
 				<nav id="topElements">
 				
-					<a href="../../Root/map.html">| MAP ||</a> 
-					<a href="../../Root/about.html"> | ABOUT |</a> 
-					<a href="../../Root/contact.html">| CONTACT |</a> 
-					<a href="../../XML/museum.xml">| COLLECTION | </a>
-					<a href="../../Root/index.html">|| HOME | </a>
-					<a href="../../Root/index.html"> | virtual. art. museum | </a> 
+					<a href="../Root/about.html"> | ABOUT |</a> 
+					<a href="../Root/contact.html">| CONTACT |</a> 
+					<a href="../XML/museum.xml">| EXHIBITS | </a>
+					<a href="../Root/index.html">| HOME | </a>
+            
 					
 				</nav>
 				

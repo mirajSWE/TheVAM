@@ -132,15 +132,11 @@ section
 
 #topElements a:nth-child(4)
 {
-    float: right;
+    float: left;
     word-spacing: 20px;
 }
 
-#topElements a:nth-child(5)
-{
-    float: right;
-    word-spacing: 20px;
-}
+
 
 
 
@@ -385,3 +381,29 @@ footer p
 	 transform: translate(-70%, 0);
 	 max-width: 79em;
  }
+
+
+ #factDisplay
+  {
+      color: black;
+      margin-top: 75px;
+      text-align: center;
+  }
+
+  #fbutton
+  {
+      padding: 10px;
+      font-family: sans-serif;
+      color: black;
+      background-color: transparent;
+      border: 1px solid rgb(0, 255, 149);
+      margin-left: 48%;
+      margin-top: 80px;
+      text-align: center;
+      border-radius: 14px;
+  }
+
+  #fbutton:hover
+  {
+    background-color: grey;
+  }

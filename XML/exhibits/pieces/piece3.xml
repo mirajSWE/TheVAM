@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="pieceX.xsl"?>
 <piece pieceID="3" imageLink="../../../Images/Art/The_last_supper.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<name>The Last Supper</name>
-	<type>wall painting</type>
+	<type>Wall Painting</type>
 	<creationDate>1490s</creationDate>
 	<epoch>Renaissance</epoch>
 	<creator creatorID="3">
-		<name>Leonardo da Vinci</name>
+		<name>Leonardo Da Vinci</name>
 		<birthday>1452-04-14</birthday>
 		<deathday>1519-05-02</deathday>
 	</creator>
