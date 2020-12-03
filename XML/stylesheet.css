@@ -360,13 +360,13 @@ footer p
  .pictureSide
  {
 	 border-right: 3px solid yellow;
-	 width: 80em;
+	 width: 80%;
 	 height: 100%;
  }
  
  .textSide
  {
-	 margin-left: 84em;
+	 margin-left: 84%;
 	 margin-top: -15em;	
 	 transform: scale(1.2);
 	 font-family: 'Montserrat', sans-serif;
@@ -379,7 +379,7 @@ footer p
 	 left: 50%;
 	 margin-right: -50%;
 	 transform: translate(-70%, 0);
-	 max-width: 79em;
+	 max-width: 79e%;
  }
 
 

@@ -290,7 +290,8 @@ footer p
 
 .ps img
 {
-   max-width: 100%;
+   margin-left: 10%;
+   width: 80%;
    max-height: 100%;
-   margin-top: -40px;
+   margin-top: 10px;
 }
