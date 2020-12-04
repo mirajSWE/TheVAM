@@ -27,20 +27,17 @@
 				<header class="collectionDescription">
 				
 					<h1>  The Exhibits </h1>
-					<p> | Browse all exhibits the museum currently offers. Every exhibit will cover a different epoche or art style. Dive into one of the exhibts to gain stunning insights on world-famous 
-					artists and one-of-a-kind artwork!</p>
+					<p> Dive into one of the museum's currently featured exhibts to gain stunning insights on world-famous artists and one-of-a-kind artwork!
+					Detailed close-ups are just a few clicks away. Enjoy the VAM!</p>
 					
 				</header>
 
-
 					<div id="factDisplay"></div>
 
-					<button id="fbutton" onclick="factCheck()">Click Me</button>
+					<button id="fbutton" onclick="factCheck()"><b>Click Me</b></button>
 				
 					<script src="fact.js"></script>
 
-					
-				
 				<section class="gridView">
 					
 					<xsl:for-each select="exhibit">

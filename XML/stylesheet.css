@@ -381,14 +381,13 @@ footer p
 	 left: 50%;
 	 margin-right: -50%;
 	 transform: translate(-70%, 0);
-	 max-width: 79e%;
+	 max-width: 79%;
  }
 
 
  #factDisplay
   {
       color: black;
-      margin-top: 75px;
       text-align: center;
   }
 
@@ -398,15 +397,15 @@ footer p
       font-family: sans-serif;
       color: black;
       background-color: transparent;
-      border: 1px solid rgb(0, 255, 149);
+      border: 2px solid rgb(255, 230, 0); 
       margin-left: 48%;
-      margin-top: 80px;
+      margin-top: 1%;
       text-align: center;
-      border-radius: 14px;
+      border-radius: 16px;
 	  cursor: pointer;
   }
 
   #fbutton:hover
   {
-    background-color: grey;
+    background-color: rgb(160, 160, 160);
   }
